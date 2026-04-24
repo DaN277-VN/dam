@@ -1,7 +1,7 @@
   <aside class="main-sidebar sidebar-dark-primary elevation-4">
     <!-- Brand Logo -->
     <a href="<?= BASE_URL_ADMIN ?>" class="brand-link">
-      <span class="brand-text font-weight-light">Mô Hình Shop</span>
+      <span class="brand-text font-weight-light">shop giày dép</span>
     </a>
 
     <!-- Sidebar -->
@@ -52,16 +52,11 @@
           <li class="nav-item">
             <a href="<?= BASE_URL_ADMIN . '?act=change_password_form'?>" class="nav-link">
               <i class="nav-icon fas fa-key"></i>
-              <p>Đổi mật khẩu</p>
+              <p>Cài Đặt</p>
             </a>
           </li>
 
-          <li class="nav-item">
-            <a href="<?= BASE_URL_ADMIN . '?act=logout'?>" class="nav-link">
-              <i class="nav-icon fas fa-sign-out-alt"></i>
-              <p>Đăng xuất</p>
-            </a>
-          </li>
+          
         </ul>
       </nav>
     </div>
